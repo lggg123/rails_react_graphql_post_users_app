@@ -15,4 +15,4 @@
 ### //= link graphiql/rails/application.js
 ### Now if you want to check out the graphql GUI simply on the browser enter localhost:3000/graphiql
 ### Also check the routes folder to properly see the routing for this app.
-
+### remember to create a new file create_user.rb and to update both base_mutation and create_user to allow mutations to work on graphiql to process your result. NOTE: if you do not fix this localhost:3000/graphiql will not work.
